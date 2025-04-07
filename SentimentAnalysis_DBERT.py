@@ -1,4 +1,3 @@
-# main.py
 from fastapi import FastAPI, HTTPException, APIRouter
 from pydantic import BaseModel
 from transformers import pipeline

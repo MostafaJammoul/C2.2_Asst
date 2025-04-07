@@ -68,6 +68,8 @@ The main entry point of the application:
 To start the application, run the following command (Uvicorn is automatically run from the main.py script):
 
 ```bash
+python imagefeature.py
+python SentimentAnalysis_DBERT.py
 python main.py
 ```
 
@@ -120,6 +122,7 @@ This project is only for the assignment and related purposes.
 
 ## Notes
 I collaborated with Mohammad Chmaitilly, where we both pushed our models to each others' repositories on GitHub. The image classification model is his while the sentiment analysis model is mine. After pushing, we collaborated on creating a main.py script which utilizes routers to manage each model in its own file (IEP) which are then integrated into one EEP.
+We need to run both scripts before running main.py to create the router endpoints. This can be automated, but for our purpose (this assignment), it is sufficient to run them manually first.
 
 ## Versioning
 I utilized GitHub tags by running:
